@@ -1,0 +1,3 @@
+*** Test Cases ***,${username},${password},${verify_msg_locator},${verify_msg}
+Valid Case,dummy,dummy,xpath=//*[@id="main-panel"]/p,dummy is missing the Overall/Read permission
+Invalid Case,1234,dummy,xpath=/html/body/div/div/form/div[1],Invalid username or password
